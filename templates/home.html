@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/global.css">
+    <title>Random Password Generator</title>
+</head>
+<body>
+    <h1 id="head">Random Password Generator</h1>
+    <form id="forms" method="post">
+        <div class="form-group">
+            <label for="nr_letters">Number of letters:</label>
+            <input type="number" class="form-control" id="nr_letters" name="nr_letters" 
+                placeholder="Enter number of letters">
+        </div>
+        <div class="form-group">
+            <label for="nr_numerals">Number of numerals:</label>
+            <input type="number" class="form-control" id='nr_numerals' name="nr_numerals"
+                placeholder="Enter number of numerals">
+        </div>
+        <div class="form-group">
+            <label for="nr_symbols">Number of symbols:</label>
+            <input type="number" class="form-control" id='nr_symbols' name="nr_symbols" 
+                placeholder="Enter number of symbols">
+        </div>
+        <button type="submit" class="btn btn-primary" id="button">Generate</button>
+    </form>
+</body>
+</html>
